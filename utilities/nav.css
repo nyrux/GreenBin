@@ -25,7 +25,7 @@ a{
     grid-template-columns: repeat(2,1fr);
     position: fixed;
     background-color: rgb(230, 230, 230);
-    z-index: 1000;
+    z-index: 100;
 }
 .spacer{height: 16vh;}
 .logo-cont,.nav-items-cont{
@@ -98,6 +98,7 @@ a{
     grid-template-rows: repeat(3,1fr);
     color: #fff;
     transition: var(--transition);
+    z-index: 1000;
 }
 .cross-btn-cont{
     width: 100%;
