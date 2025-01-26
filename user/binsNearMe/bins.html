@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBin</title>
+    <link rel="stylesheet" href="bins.css">
+    <link rel="stylesheet" href="../../utilities/nav.css">
+    <link rel="stylesheet" href="../../utilities/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-top">
+        <div class="logo-cont">
+            <div class="logo-img"></div>
+            <div class="logo-name">GreenBin</div>
+        </div>
+        <div class="nav-items-cont">
+            <div class="nav-btns">
+                <a href="../reportWaste/report.html"> <button class="report-btn">Report</button></a>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-slider">
+        <div class="slider-item-cont slider-logo-cont">
+            <div class="cross-btn-cont">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="logo-img"></div>
+            <div class="logo-name" id="name-slider">GreenBin</div> 
+        </div>
+        <div class="slider-item-cont slider-links">
+            <div class="links-cont">
+                <a href="../home/home.html"><div class="slider-link">Home</div></a>
+                <a href="../binsNearMe/bins.html"><div class="slider-link">Bins near me</div></a>
+                <a href="../reportWaste/report.html"><div class="slider-link">Report Waste</div></a>
+                <a href="../orderBin/order.html"><div class="slider-link">Order Bin</div></a>
+            </div>
+        </div>
+        <div class="slider-item-cont slider-contact-dets">
+                <div class="slider-contact-title">Contact Us</div>
+                <div class="slider-contact-dets-cont">
+                    <span>greebin@gmail.com</span>
+                    <span>+977 98123456789</span>
+                </div>
+                <div class="social-icons-cont">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+
+    <!--  Find Bins Section  -->
+
+    <section class="find-bins-section">
+        <div class="find-bin-title">Find The Nearest Bin To You</div>
+        <div class="address-input">
+            <label for="">Select Your Location: </label>
+            <select id="place-selector">
+              <option value="Place Location A">Place A</option>
+              <option value="Place Location B">Place B</option>
+              <option value="Place Location C">Place C</option>
+              <option value="Place Location D">Place D</option>
+              <option value="Place Location E">Place E</option>
+            </select>
+            <button class="find-bins-btn">Find Bins</button>
+          </div>
+          
+          <div class="bins-table">
+            <div class="row row-0">
+                <div class="col-1">Place Location</div>
+                <div class="col-2">Nearest Bin Location</div>
+            </div>
+            <div class="row row-1">
+                <div class="place-location">Place Location A</div>
+                <div class="bin-location">Bin Location A</div>
+            </div>
+            <div class="row row-2">
+                <div class="place-location">Place Location B</div>
+                <div class="bin-location">Bin Location B</div>
+            </div>
+            <div class="row row-3">
+                <div class="place-location">Place Location C</div>
+                <div class="bin-location">Bin Location C</div>
+            </div>
+            <div class="row row-4">
+                <div class="place-location">Place Location D</div>
+                <div class="bin-location">Bin Location D</div>
+            </div>
+            <div class="row row-5">
+                <div class="place-location">Place Location E</div>
+                <div class="bin-location">Bin Location E</div>
+            </div>
+            <div class="row row-6">
+                <div class="place-location">Place Location F</div>
+                <div class="bin-location">Bin Location F</div>
+            </div>
+            <div class="row row-7">
+                <div class="place-location">Place Location G</div>
+                <div class="bin-location">Bin Location G</div>
+            </div>
+            <div class="row row-8">
+                <div class="place-location">Place Location H</div>
+                <div class="bin-location">Bin Location H</div>
+            </div>
+            <div class="row row-9">
+                <div class="place-location">Place Location I</div>
+                <div class="bin-location">Bin Location I</div>
+            </div>
+            <div class="row row-10">
+                <div class="place-location">Place Location J</div>
+                <div class="bin-location">Bin Location J</div>
+            </div>
+          </div>
+          
+          <div class="no-bin-cont">
+            <div class="no-bin-text">No Bin Near You ? </div>
+            <a href="../orderBin/order.html"><button class="order-btn">Order A Bin Now</button></a>
+        </div>
+    </section>
+
+      <!-- Footer -->
+
+
+      <footer>
+        <div class="foot-logo-cont">
+            <div class="foot-logo"></div>
+            <div class="foot-logo-name">GreenBin</div>
+        </div>
+
+        <div class="quick-links-cont">
+            <div class="foot-title">Quick Links</div>
+            <div class="quick-links">
+                <a href="../binsNearMe/bins.html"><div class="link">Bins Near Me</div></a>
+                <a href="../reportWaste/report.html"><div class="link">Report Waste</div></a>
+                <a href="../orderBin/order.html"><div class="link">Order Bin</div></a>
+            </div>
+        </div>
+
+        <div class="foot-contact-cont">
+            <div class="foot-title">Contact Us</div>
+
+            <div class="foot-contact-det-cont">
+                <span>greenbin@gmail.com</span>
+                <span>+977 9812345678</span>
+                
+                <div class="social-icons-cont">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+
+      <script src="searchBins.js"></script>
+      <script src="../../utilities/nav.js"></script>
+</body>
+</html>

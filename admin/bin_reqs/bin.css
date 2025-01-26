@@ -1,0 +1,38 @@
+/* Bin Requests Section */
+.bin-rqst-title{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2vh 0vh;
+}
+.greenbin{
+    font-weight: 500;
+    font-style: italic;
+    color: #24bd10;
+}
+.bin-rqst-table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bin-table{
+    border-collapse: collapse;
+    border: 1px solid rgb(207, 207, 207);
+    width: 70%;
+}
+th,td{
+    padding: 1vh 2vh;
+    font-weight: normal;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+.fa-times{
+    margin-left: 4vh;
+}
+.fa-times,.fa-check{
+    cursor: pointer;
+}

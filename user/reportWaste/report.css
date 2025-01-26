@@ -1,0 +1,51 @@
+.form-title{
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    padding: 2vh 0vh;
+}
+.report-form-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 2vh;
+}
+input{
+    height: 6vh;
+    width: 50vh;
+    padding-left: 1vh;
+    border: 1px solid #dadada;
+}
+.sub-date-qty{
+    width: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1vh;
+}
+.sub-date-qty input{
+    width: auto;
+    height: 100%;
+}
+select,option{
+    height: 6vh;
+    width: 50vh;
+    padding-left: 1vh;
+    border: 1px solid #dadada;
+}
+.submit-btn{
+    height: 6vh;
+    width: 25vh;
+    background-color: #fff;
+    color: var(--primColor);
+    border: 2px solid var(--primColor);
+    border-radius: 1vh;
+}
+.submit-btn:hover{
+    background-color: var(--primColor);
+    color: #fff;
+    transition: var(--transition);
+    cursor: pointer;
+}

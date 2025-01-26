@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBin</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../../utilities/nav.css">
+    <link rel="stylesheet" href="../../utilities/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-top">
+        <div class="logo-cont">
+            <div class="logo-img"></div>
+            <div class="logo-name">GreenBin</div>
+        </div>
+        <div class="nav-items-cont">
+            <div class="nav-btns">
+                <a href="../reportWaste/report.html">                
+                    <button class="report-btn">Report</button>
+                </a>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-slider">
+        <div class="slider-item-cont slider-logo-cont">
+            <div class="cross-btn-cont">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="logo-img"></div>
+            <div class="logo-name" id="name-slider">GreenBin</div> 
+        </div>
+        <div class="slider-item-cont slider-links">
+            <div class="links-cont">
+                <a href="../home/home.html"><div class="slider-link">Home</div></a>
+                <a href="../binsNearMe/bins.html"><div class="slider-link">Bins near me</div></a>
+                <a href="../reportWaste/report.html"><div class="slider-link">Report Waste</div></a>
+                <a href="../orderBin/order.html"><div class="slider-link">Order Bin</div></a>
+            </div>
+        </div>
+        <div class="slider-item-cont slider-contact-dets">
+                <div class="slider-contact-title">Contact Us</div>
+                <div class="slider-contact-dets-cont">
+                    <span>greebin@gmail.com</span>
+                    <span>+977 98123456789</span>
+                </div>
+                <div class="social-icons-cont">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+
+    <!-- Order form  -->
+
+     <form action="orderReq.php" method="POST">
+            <div class="order-form-title">Request a New <div class="greenbin">&nbsp;GreenBin</div></div>
+            <div class="order-form-cont">
+                <input type="text" name="street_name" id="" placeholder="Enter Street Name">
+                <input type="text" name="ward_no" id="" placeholder="Enter Ward No">
+                <input type="text" name="house_no" id="" placeholder="Enter House No">
+
+                <a href="../reportWaste/report.html"> <button class="report-btn">Report</button></a>
+            </div>
+     </form>
+      <!-- Footer -->
+
+      <footer>
+        <div class="foot-logo-cont">
+            <div class="foot-logo"></div>
+            <div class="foot-logo-name">GreenBin</div>
+        </div>
+
+        <div class="quick-links-cont">
+            <div class="foot-title">Quick Links</div>
+            <div class="quick-links">
+                <a href="../binsNearMe/bins.html"><div class="link">Bins Near Me</div></a>
+                <a href="../reportWaste/report.html"><div class="link">Report Waste</div></a>
+                <a href="../orderBin/order.html"><div class="link">Order Bin</div></a>
+            </div>
+        </div>
+
+        <div class="foot-contact-cont">
+            <div class="foot-title">Contact Us</div>
+
+            <div class="foot-contact-det-cont">
+                <span>greenbin@gmail.com</span>
+                <span>+977 9812345678</span>
+                
+                <div class="social-icons-cont">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+      <script src="../../utilities/nav.js"></script>
+</body>
+</html>
